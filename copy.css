@@ -1,0 +1,136 @@
+:root {
+
+    --purple300: #270082;
+    --purple500: #281154;
+    --purple600: #1b0058;
+    --offWhite:#FAF9F6;
+    --darkGreem:#023020;
+
+      }
+
+
+
+*{
+    
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  html , body {
+    font-weight: 300;
+    line-height: 1.4;
+    background-color: #f6f6f6;
+
+  }
+
+  ul{
+
+    list-style: none;
+
+  }
+
+  .container1{
+    max-width: 1200px;
+    margin: 0 auto;
+
+  }
+
+  a{
+
+    text-decoration: none;
+    color: #f9f6ff;
+
+  }
+
+  header{
+    background-color:var(--purple300);
+    width: 100vh;
+  }
+
+  nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  nav ul{
+
+    display: flex;
+    gap: 20px;
+
+  }
+
+
+.logo {
+
+    font-size: 32px;
+    font-weight: 600;
+} 
+
+nav ul li {
+
+   border-bottom: 2px solid transparent;
+   transition: o.2s ease-in-out;
+}
+nav ul li:hover{
+
+   border-bottom: 2px solid white;
+   transition: o.2s ease-in-out;
+}
+
+
+
+.divs{
+
+    height: 70vh;
+    position: relative;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px ;
+    column-gap: 30px;
+    
+}
+
+.card{
+    box-shadow: 3px 5px 5px rgba(1.5 ,1.5 ,1.5 ,1.5);
+    border-radius: 10px;
+    padding: 10px;
+    
+
+}
+
+img {
+
+    width: 280px;
+}
+
+.card:hover{
+    transform: scale(1.04);
+}
+
+
+.footer{
+    display: flex;
+    height: 40px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.4px;
+  }
+
+  .main{
+
+    background-color: #023020;
+    height: 50px;
+  }
